@@ -1,0 +1,217 @@
+
+
+
+a {
+    color: #5F6368;
+    text-decoration:none;
+}
+
+.header-text{
+    color: black;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.header-text:hover{
+    text-decoration:underline;
+}
+
+
+
+.button {
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 5px;
+
+
+
+}
+
+.button:hover {
+    border: 1px solid black;
+}
+
+
+/*Header layout */
+.main-header{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:top;
+    height:89px;
+    background-color:green;
+}
+
+.main-header div{
+    padding: 5px;
+}
+
+
+.headerbox1{
+    flex: 1;
+    background-color:grey;
+}
+
+.headerbox2{
+    flex: 1;
+    background-color:grey;
+}
+
+.headerbox3{
+    flex: 12;
+    background-color:grey;
+}
+
+.headerbox4{
+    flex: 1;
+    background-color:grey;
+}
+
+.headerbox5{
+    flex: 1;
+    background-color:grey;
+}
+
+.headerbox6{
+    flex: 1;
+    background-color:grey;
+}
+
+.headerbox7{
+    flex: 1;
+    background-color:grey;
+}
+
+
+/*Main form layout */
+
+.main-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    height:351px;
+    background-color:yellow;
+}
+
+
+/*Google image box */
+
+
+.google-image div{
+    padding:10px;
+}
+
+.google-image{
+    display:flex;
+    background-color: blue;
+    height: 120px;
+
+}
+
+.google_image_box1{
+    flex:3;
+    order:2;
+    background-color:white;
+    text-align:center;
+}
+
+.google_image_box2{
+    flex:1;
+    order:1;
+    background-color:blue;
+
+}
+
+
+.google_image_box3{
+    flex:1;
+    order:3;
+    background-color:black;
+
+}
+
+
+
+
+/*Search bar box */
+
+.searchbox_style{
+    width: 80%;
+    padding: 5px;
+}
+
+
+.search-bar{
+    display:flex;
+    height: 50px;
+    background-color:green;
+    align-items:center;
+
+
+}
+
+.searchbox1{
+    flex:3;
+    order:2;
+    background-color:yellow;
+    text-align:center;
+}
+
+.searchbox2{
+    flex:1;
+    order:1;
+    border:3px solid black;
+}
+
+.searchbox3{
+    flex:1;
+    order:3;
+    background-color:green;
+    border:3px solid black;
+}
+
+
+
+
+/* Search button box */
+.button-row div{
+
+
+
+
+}
+
+.button-row{
+    display:flex;
+    background-color: orange;
+    height:60px;
+    align-items:center;
+
+
+}
+
+.box1{
+    padding:5px;
+    flex:1;
+    order:2;
+    background-color:green;
+}
+
+
+.box2{
+    padding:5px;
+    flex:1;
+    order:3;
+    background-color:blue;
+}
+
+
+.box3{
+    flex:2;
+    order:1;
+}
+
+.box4{
+    flex:2;
+    order:4;
+}
