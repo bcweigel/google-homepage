@@ -1,15 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe);
+
+
 
 
 
 a {
     color: #5F6368;
     text-decoration:none;
+
 }
 
 .header-text{
     color: black;
     font-size: 14px;
     padding-left: 5px;
+    font-family: 'ZCOOL Kuaile', cursive;
 }
 
 .header-text:hover{
@@ -40,6 +45,7 @@ a {
     align-items:top;
     height:89px;
     background-color:green;
+
 }
 
 .main-header div{
@@ -115,6 +121,11 @@ a {
     text-align:center;
 }
 
+.google_image_box1 img{
+    max-height:100%;
+    max-width:100%;
+}
+
 .google_image_box2{
     flex:1;
     order:1;
@@ -126,7 +137,7 @@ a {
 .google_image_box3{
     flex:1;
     order:3;
-    background-color:black;
+    background-color:blue;
 
 }
 
