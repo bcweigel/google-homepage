@@ -44,7 +44,7 @@ a {
     justify-content:flex-start;
     align-items:top;
     height:89px;
-    background-color:green;
+
 
 }
 
@@ -55,37 +55,37 @@ a {
 
 .headerbox1{
     flex: 1;
-    background-color:grey;
+
 }
 
 .headerbox2{
     flex: 1;
-    background-color:grey;
+
 }
 
 .headerbox3{
     flex: 12;
-    background-color:grey;
+
 }
 
 .headerbox4{
     flex: 1;
-    background-color:grey;
+
 }
 
 .headerbox5{
     flex: 1;
-    background-color:grey;
+
 }
 
 .headerbox6{
     flex: 1;
-    background-color:grey;
+
 }
 
 .headerbox7{
     flex: 1;
-    background-color:grey;
+
 }
 
 
@@ -96,7 +96,7 @@ a {
     flex-direction:column;
     justify-content:flex-end;
     height:351px;
-    background-color:yellow;
+
 }
 
 
@@ -109,7 +109,6 @@ a {
 
 .google-image{
     display:flex;
-    background-color: blue;
     height: 120px;
 
 }
@@ -117,7 +116,6 @@ a {
 .google_image_box1{
     flex:3;
     order:2;
-    background-color:white;
     text-align:center;
 }
 
@@ -129,16 +127,12 @@ a {
 .google_image_box2{
     flex:1;
     order:1;
-    background-color:blue;
-
 }
 
 
 .google_image_box3{
     flex:1;
     order:3;
-    background-color:blue;
-
 }
 
 
@@ -155,7 +149,6 @@ a {
 .search-bar{
     display:flex;
     height: 50px;
-    background-color:green;
     align-items:center;
 
 
@@ -164,37 +157,26 @@ a {
 .searchbox1{
     flex:3;
     order:2;
-    background-color:yellow;
     text-align:center;
 }
 
 .searchbox2{
     flex:1;
     order:1;
-    border:3px solid black;
 }
 
 .searchbox3{
     flex:1;
     order:3;
-    background-color:green;
-    border:3px solid black;
 }
 
 
 
 
 /* Search button box */
-.button-row div{
-
-
-
-
-}
 
 .button-row{
     display:flex;
-    background-color: orange;
     height:60px;
     align-items:center;
 
@@ -205,7 +187,6 @@ a {
     padding:5px;
     flex:1;
     order:2;
-    background-color:green;
 }
 
 
@@ -213,7 +194,6 @@ a {
     padding:5px;
     flex:1;
     order:3;
-    background-color:blue;
 }
 
 
